@@ -12,7 +12,17 @@
 	"forwardPorts": [5173],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install"
+	"postCreateCommand": "npm install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"usernamehw.errorlens",
+				"streetsidesoftware.code-spell-checker",
+				"esbenp.prettier-vscode",
+				"YoavBls.pretty-ts-errors"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
